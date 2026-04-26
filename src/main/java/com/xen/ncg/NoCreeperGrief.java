@@ -10,10 +10,8 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.level.ExplosionEvent;
 import net.neoforged.bus.api.IEventBus;
 
-@Mod(NoCreeperGrief.MODID)
+@Mod("nocreepergrief")
 public class NoCreeperGrief {
-
-    public static final String MODID = "ncg";
 
     public static final GameRules.Key<GameRules.BooleanValue> DO_CREEPERS_GRIEF =
             GameRules.register(
